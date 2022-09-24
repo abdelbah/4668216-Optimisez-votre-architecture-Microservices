@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
-@EnableFeignClients("com.mpaiement")
+@EnableFeignClients
 public class MpaiementApplication {
 
 	public static void main(String[] args) {
